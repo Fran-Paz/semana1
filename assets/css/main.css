@@ -1,0 +1,71 @@
+.navbar {
+  background-color: #A44A3F;
+  height: 2rem;
+  text-align: right;
+  list-style-type: none;
+  padding: 1rem 0; }
+  .navbar__list {
+    margin: 0 auto; }
+  .navbar__item {
+    display: inline;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif; }
+
+.navbar__item a {
+  color: #FFFFFF;
+  text-decoration: none;
+  padding-right: 1.5rem;
+  display: inline-block;
+  vertical-align: middle; }
+
+.header {
+  background-color: #536D5C;
+  text-align: center; }
+  .header__image {
+    max-width: 100%;
+    height: auto; }
+
+.footer {
+  height: 5rem;
+  background-color: #A44A3F;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 2rem; }
+  .footer__item {
+    text-decoration: none;
+    color: white;
+    padding-right: 1rem; }
+  .footer__text {
+    font-family: "Roboto", sans-serif; }
+
+.aside {
+  font-family: "Roboto", sans-serif; }
+  .aside__title {
+    font-weight: 700; }
+
+.form {
+  background-color: #E8EDDF;
+  height: 10rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 400;
+  text-align: center;
+  padding: 1.5rem 0;
+  font-size: 18px; }
+  .form__input {
+    display: block;
+    margin: 0 auto; }
+  .form__button {
+    margin: 1rem 0;
+    background-color: #FFFFFF;
+    color: black;
+    border: 2px solid #4CAF50;
+    font-size: 10px;
+    border-radius: 1.25em;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition-duration: 0.4s; }
+  .form__button:hover {
+    color: white;
+    background-color: #4CAF50; }
+
+/*# sourceMappingURL=main.css.map */

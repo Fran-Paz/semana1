@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+  <head>
+    <title>Ejercicio 1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ejercicio semana 1">
+    <meta name="author" content="Francisca González">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <ul class="navbar__list">
+        <li class="navbar__item"><a href="#inicio">Inicio</a></li>
+        <li class="navbar__item"><a href="#formulario">Formulario</a></li>
+        <li class="navbar__item"><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <!-- HEADER -->
+
+    <header class="header">
+      <div id="inicio" class="header__container">
+        <img class="header__image" src="assets/images/puppy-running.jpg" alt="foto perrito">
+      </div>
+    </header>
+
+
+    <!-- ASIDE -->
+    <aside class="aside">
+      <h2 class="aside__title">
+        Bajo el acuerdo de la W3C World Wide Web Consortium en los estándares de
+        HTML5, ¿Se puede omitir las etiquetas principales "html", "head" y "body"?.
+        Explique en detalle su respuesta.
+      </h2>
+
+      <article class="aside__answer">
+        <p> La etiqueta "body" se puede omitir sin que W3C lo muestre como un documento HTML inválido, sin embargo, no así con las etiquetas "head y "html".</p>
+        <p> Sin agregar etiqueta "head" el validador dice que es necesario agregar el titulo del documento, y que falta la etiqueta mencionada.</p>
+        <p> Si no se agrega la etiqueta "html" al documento, se solicita añadir el lenguaje del sitio, y dependiendo del navegador puede que tome el sitio como html válido. </p>
+        <p>Si bien se puede omitir una etiqueta, esto no es recomendado, ya que la estructura que ofrece cada etiqueta y elemento está para que todos los navegadores lo puedan interpretar de forma correcta.
+        </p>
+        <p>De esta forma se mantiene un estándar que los desarrolladores debemos respetar, se debe siempre especificar que el documento es "!DOCTYPE html" y ocupar todas sus etiquetas para seguir la estructura otorgada</p>
+      </article>
+    </aside>
+
+
+
+
+
+    <!-- FORM -->
+
+    <form id="formulario" class="form">
+
+      <label for="name">Nombre:</label>
+      <input type="text" name="fname" class="form__input">
+      <label for="apellido">Apellido:</label>
+      <input type="text" name="lnombre" class="form__input">
+      <label for="correo">Correo:</label>
+      <input type="email" name="email" class="form__input">
+
+      <button type="button" class="form__button">Enviar</button>
+
+    </form>
+
+
+    <!-- FOOTER -->
+    <footer id="contacto" class="footer">
+      <a href="https://github.com/Fran-Paz/" target="_blank" class=" footer__item"> <i class="fab fa-github-square fa-3x"></i></a>
+      <a href="https://www.linkedin.com/in/francisca-gonzalez/" target="_blank" class="footer__item"> <i class="fab fa-linkedin fa-3x"></i></a>
+      <p><small class="footer__text">Creado por Francisca González</small></p>
+    </footer>
+
+  </body>
+
+</html>

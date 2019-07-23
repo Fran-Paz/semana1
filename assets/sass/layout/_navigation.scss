@@ -1,0 +1,25 @@
+.navbar {
+  background-color: #A44A3F;
+  height          : 2rem;
+  text-align      : right;
+  list-style-type : none;
+  padding         : 1rem 0;
+
+  &__list {
+    margin: 0 auto;
+  }
+
+  &__item {
+    display    : inline;
+    font-weight: $regular;
+    font-family: $roboto;
+  }
+}
+
+.navbar__item a {
+  color          : $white;
+  text-decoration: none;
+  padding-right  : 1.5rem;
+  display        : inline-block;
+  vertical-align : middle;
+}
